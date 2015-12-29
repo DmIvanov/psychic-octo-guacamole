@@ -9,3 +9,12 @@ Server init and start:
     [[FakeServer sharedInstance] start];
     ...
 }
+
+Record message:
+
+```objc
+- (void)webSocket:(SRWebSocket *)webSocket didReceiveMessage:(id)message {
+    ...
+    [FakeServer recordMessage:message forMethod:method];
+    ...
+}
