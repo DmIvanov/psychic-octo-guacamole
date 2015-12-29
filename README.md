@@ -7,4 +7,5 @@ Server init and start:
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [FakeServer sharedInstance].delegate = [FakeServerDelegate new];
     [[FakeServer sharedInstance] start];
-  }```
+    ...
+}
