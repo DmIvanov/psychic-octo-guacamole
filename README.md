@@ -9,6 +9,7 @@ Server init and start:
     [[FakeServer sharedInstance] start];
     ...
 }
+```
 
 Record message:
 
@@ -18,3 +19,4 @@ Record message:
     [FakeServer recordMessage:message forMethod:method];
     ...
 }
+```
