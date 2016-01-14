@@ -1,3 +1,5 @@
+#if DEBUG
+
 #import "MyHTTPConnection.h"
 #import "HTTPMessage.h"
 #import "HTTPResponse.h"
@@ -67,3 +69,5 @@
 }
 
 @end
+
+#endif

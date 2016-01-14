@@ -1,3 +1,5 @@
+#if DEBUG
+
 #import "MyWebSocket.h"
 
 
@@ -24,3 +26,5 @@
 }
 
 @end
+
+#endif

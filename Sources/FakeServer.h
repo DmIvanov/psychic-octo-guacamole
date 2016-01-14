@@ -3,6 +3,8 @@
 //  Created by Dmitry Ivanov on 27.12.15.
 //
 
+#if DEBUG
+
 @protocol FakeServerDelegate <NSObject>
 
 /**
@@ -52,3 +54,5 @@
 - (void)start;
 
 @end
+
+#endif

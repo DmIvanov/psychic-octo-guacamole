@@ -3,6 +3,8 @@
 //  Created by Dmitry Ivanov on 27.12.15.
 //
 
+#if DEBUG
+
 #import "FakeServer.h"
 
 #import "HTTPServer.h"
@@ -103,3 +105,5 @@ static const UInt16 kPort = 12345;
 }
 
 @end
+
+#endif

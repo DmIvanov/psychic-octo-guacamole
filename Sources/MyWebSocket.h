@@ -1,3 +1,5 @@
+#if DEBUG
+
 #import <Foundation/Foundation.h>
 #import "WebSocket.h"
 #import "FakeServer.h"
@@ -8,3 +10,5 @@
 @property (nonatomic, weak) FakeServer *FakeServer;
 
 @end
+
+#endif
